@@ -37,7 +37,8 @@ public class Product {
     public void decreasePrice(int percentage) {
         price -= Math.round(price*(float)percentage/100);
     }
-}```
+}
+```
 
 1. Javítsd ki benne az OOP alapelvet sértő kódot.
 2. A maven projektbe vezesd be a függöségként a lombok legujabb verzioját.

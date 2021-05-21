@@ -3,11 +3,17 @@ package hu.meiit.haladojava;
 public class Product {
     private String name;
     private int price;
-    public String type; // értéke lehet "csoki" vagy "banan"
+    private String type; // értéke lehet "csoki" vagy "banan"
     public Product(String name, int price) {
         super();
         this.name = name;
         this.price = price;
+    }
+    public String getType() {
+        return type;
+    }
+    public void setType(String type) {
+        this.type = type;
     }
     @Override
     public String toString() {
